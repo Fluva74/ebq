@@ -26,6 +26,9 @@ img {
     display: block;
 }
 
+
+/* //////////////////////TOPBAR WITH LOGO AND DEMO BUTTON//////////////////// */
+
 .topbar {
     display: flex;
     justify-content: space-between;
@@ -58,6 +61,9 @@ img {
     cursor: pointer;
 }
 
+
+/* ///////////////////////HEADER/////////////////// */
+
 header {
     background-color: var(--light-blue);
     padding: 0.5rem 2rem;
@@ -81,6 +87,9 @@ header {
     margin: 1.5rem 0;
 }
 
+
+/* ///////////////////FIRST CARD WITH CONTENT AND IMAGE///////////// */
+
 .card1 {
     display: flex;
     flex-direction: column-reverse;
@@ -93,6 +102,9 @@ header {
     text-align: center;
     margin: 1.5rem 0.75rem;
 }
+
+
+/* ///////////////IMAGE FLIP STYLE AND CONTROLS/////////// */
 
 .turncard {
     display: flex;
@@ -151,6 +163,9 @@ header {
     font-size: 4.5vw;
 }
 
+
+/* ////////////SECOND CARD WITH CONTENT AND IMAGE////////// */
+
 .card2 {
     display: flex;
     flex-direction: column;
@@ -159,6 +174,9 @@ header {
 .card2-image {
     padding: 1rem;
 }
+
+
+/* ///////////FOOTER WITH TITLE AND CONTACT BUTTON//////////////// */
 
 footer {
     background-color: var(--dark-blue);
@@ -186,6 +204,9 @@ footer {
     background-color: #2d5ca4;
     cursor: pointer;
 }
+
+
+/* /////////////MEDIA QUERIES FOR MEDIUM THEN LARGE SCREENS//////////////// */
 
 @media only screen and (min-width: 835px) {
     .btn-demo {
