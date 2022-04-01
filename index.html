@@ -40,7 +40,15 @@
                 </p>
             </div>
             <div class="card1-image">
-                <img src="img/Marketing_Tools.svg" alt="ebq marketing tools" />
+                <div class="turncard" id="a" onclick="fn()">
+                    <div class="front">
+                        <img src="img/Marketing_Tools.svg" class="front-img">
+                    </div>
+                    <div class="back">
+                        <img src="img/clients3.svg" class="back-img">
+                    </div>
+                </div>
+                <p class="flip-text">Click the image to see customers that love EBQ!</p>
             </div>
         </section>
         <section class="card2">
@@ -64,6 +72,12 @@
             </div>
         </footer>
     </section>
+    <script>
+        function fn() {
+            var element = document.getElementById("a");
+            element.classList.toggle("flip");
+        }
+    </script>
 </body>
 
 </html>
